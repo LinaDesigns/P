@@ -1,0 +1,697 @@
+@charset "UTF-8";
+
+*[hidden] {
+    display: none;
+}
+
+
+a.enter_link:hover:before {  background: transparent;  
+}
+a.enter_link:hover:after {  background: transparent;  
+}
+
+
+a {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+a:before, span:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  top: 45%;
+  margin-top: -0.5px;
+  background: #fff;
+}
+
+a:before {
+  left: -2.5px;
+}
+a:after {
+  right: 2.5px;
+  background: #ff8736;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+a:hover:before {
+  background: #ff8736;
+  width: 106%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+a:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+
+
+body{font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color:white;
+	margin-left: 10%;
+	margin-top: 5%
+}
+
+
+.Portfolio{text-decoration: none;
+color: black;
+	font-weight: 300;}
+
+.About{text-decoration: none;
+color: black;
+font-weight: 300}
+
+.Contact{text-decoration: none;
+color: black; 
+font-weight: 300;}
+
+
+.vertical_dotted_line{
+    border-left: 3px dotted white;
+text-align: center;
+  stroke-dasharray: 100;
+  animation: dash 10s linear;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 100;
+  }
+}
+
+
+#hi{color: white;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+font-weight: 300;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0em solid transparent; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */;
+animation: 
+    typing 1.6s steps(1, end),
+	blink-caret .75s step-end infinite;}
+
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+	100% { border-color: transparent; }}
+
+
+
+
+
+#splashscreen {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:#ff8736;
+	margin: 0px;
+	z-index: 1
+}
+
+
+
+
+
+h2{color: white;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+text-align: center;
+overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0em solid transparent; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0em; /* Adjust as needed */
+  animation: 
+    typing 3s steps(40, end),
+    blink-caret .75s step-end infinite;
+	
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+	100% { border-color: transparent; }}
+
+
+
+
+.enter_link{text-decoration: none;
+color:white;
+	 display: inline-block;;
+animation: 30s shake infinite alternate;
+}
+
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(5deg); }
+   85% { transform: rotate(-5deg); }
+   95% { transform: rotate(0deg); }
+  100% { transform: rotate(5deg); }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1100px) {
+	h2 {font-size: 10vw;
+	margin-top: 34vh}
+	
+	
+#hi{color: white;
+margin-left: 46.2vw;
+font-size: 2.1vw;
+text-decoration: none;
+position:absolute; 
+	bottom:0px;
+ display:inline-block;
+	margin-top: 21.2vh}
+	
+.vertical_dotted_line{
+margin-left: 3.6vw;
+margin-top: 1vh;
+	height: 18vh;
+	}
+
+	
+
+	#grid-container > div {
+  background-color: black;
+  text-align: center;
+  padding: 9.5vw;
+  font-size: 1vw
+		
+}		
+	
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: .3vw;
+  background-color: white;
+margin-left: -4.3vw;
+margin-right: 5vw;
+margin-top: 0vh
+}
+		
+
+#grid{
+    display: none;
+}
+	
+	
+h1{margin-left: -4.7vw;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 5.73vw;
+		color: black;
+	margin-top: -1.5vh}			
+	
+	
+	.Portfolio{font-size: 1.7vw; 
+	position: absolute;
+	z-index: 0;
+	top:4.75em;
+	left: 61vw}
+	
+	.About{font-size: 1.7vw;
+	position: absolute;
+	z-index: 0;
+	top:4.75em;
+	left: 73.5vw}	
+	
+	.Contact{font-size: 1.7vw;
+	position: absolute;
+	z-index: 0;
+	top:4.75em;
+	left: 85.5vw}
+	
+
+hr{
+border-top: 1.5px solid #ff8736;
+margin-left: -4.3vw;
+;width:88.6vw;
+margin-top: -4.7%}
+	
+
+	
+}
+
+@media screen and (max-width: 1100px) {
+	
+	
+  h2 {font-size: 13vw;
+	margin-top: 37vh}
+	
+#hi{color: white;
+margin-left: 44vw;
+font-size: 3vw;
+text-decoration: none;
+position:absolute; 
+	bottom:0px;
+ display:inline-block;
+	margin-top: 21vh}
+	
+	
+	
+.vertical_dotted_line{
+margin-left: 5.3vw;
+margin-top: 1vh;
+	height: 18vh;
+	}
+		
+h2{
+  animation: 
+    typing 2.7s steps(40, end),
+    blink-caret .75s step-end infinite;
+	
+}	
+	
+
+h1{margin-left: -3.5vw;
+	font-family: 'Roboto', sans-serif;;
+	font-weight: 300;
+	font-size: 6vw;
+	margin-top: 30px;
+		color: #ff8736}		
+	
+	
+	
+
+
+	#grid-container > div {
+  background-color: black;
+  text-align: center;
+  padding: 10vw;
+  font-size: 1vw
+		
+}		
+	
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: .5vw;
+  background-color: white;
+margin-left: -4.3vw;
+margin-right: 5vw;
+margin-top: -2vh
+}
+		
+
+#grid{
+    display: none;
+}
+	
+	
+h1{margin-left: -4.7vw;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 5.73vw;
+		color: black}			
+	
+	
+	.Portfolio{font-size: 1.8vw; 
+	position: absolute;
+	z-index: 0;
+	top:4.8em;
+	left: 60vw}
+	
+	.About{font-size: 1.8vw;
+	position: absolute;
+	z-index: 0;
+	top:4.8em;
+	left: 73vw}	
+	
+	.Contact{font-size: 1.8vw;
+	position: absolute;
+	z-index: 0;
+	top:4.8em;
+	left: 85vw}
+	
+
+hr{
+border-top: 1.5px solid #ff8736;
+margin-left: -4.3vw;
+;width:88.4vw;
+margin-top: -4.7%}
+	
+
+	
+}
+
+
+
+@media screen and (max-width: 900px) {
+ h2 {font-size: 13vw;
+	margin-top: 37vh}
+	
+#hi{color: white;
+margin-left: 44vw;
+font-size: 3vw;
+text-decoration: none;
+position:absolute; 
+	bottom:0px;
+ display:inline-block;
+	margin-top: 21vh}
+	
+	
+	
+.vertical_dotted_line{
+margin-left: 5.3vw;
+margin-top: 1vh;
+	height: 18vh;
+	}
+		
+h2{
+  animation: 
+    typing 2.7s steps(40, end),
+    blink-caret .75s step-end infinite;
+	
+}	
+	
+
+h1{margin-left: -3.5vw;
+	font-family: 'Roboto', sans-serif;;
+	font-weight: 300;
+	font-size: 6vw;
+	margin-top: 30px;
+		color: #ff8736}		
+	
+	
+	
+
+
+	#grid-container > div {
+  background-color: black;
+  text-align: center;
+  padding: 12vw;
+  font-size: 1vw
+		
+}		
+	
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: .5vw;
+  background-color: white;
+margin-left: -3vw;
+margin-right: 5.4vw;
+margin-top: -3vh
+}
+		
+
+#grid{
+    display: none;
+}
+	
+	
+h1{margin-left: -3.5vw;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 5.73vw;
+		color: black}			
+	
+	
+	.Portfolio{font-size: 2.3vw; 
+	position: absolute;
+	z-index: 0;
+	top:3.6em;
+	left: 53vw}
+	
+	.About{font-size: 2.3vw;
+	position: absolute;
+	z-index: 0;
+	top:3.6em;
+	left: 68.5vw}	
+	
+	.Contact{font-size: 2.3vw;
+	position: absolute;
+	z-index: 0;
+	top:3.6em;
+	left: 83vw}
+	
+
+hr{
+border-top: 1.5px solid #ff8736;
+margin-left: -3.1vw;
+;width:86.5vw;
+margin-top: -4.7%}
+		
+}
+
+
+
+@media screen and (max-width: 600px) {
+	
+	
+  h2 {font-size: 17vw;
+	margin-top: 38vh;
+	font-weight: 300}
+	
+#hi{color: white;
+margin-left: 37vw;
+font-size: 7vw;
+text-decoration: none;
+position:absolute; 
+	bottom:0px;
+ display:inline-block;
+	margin-top: 21vh}
+	
+	#hi{
+animation: 
+    typing 1.6s steps(1, end),
+	blink-caret .75s step-end infinite;}
+	
+.vertical_dotted_line{
+margin-left: 12vw;
+margin-top: 1vh;
+	height: 18vh;
+	}	
+	
+	
+h2{
+  animation: 
+    typing 2s steps(40, end),
+    blink-caret .75s step-end infinite;
+	
+}	
+	
+		
+	
+	#grid-container > div {
+  background-color: black;
+  text-align: center;
+  padding: 28vw;
+  font-size: 1vw;
+}		
+	
+#grid-container {
+  display: grid;
+  grid-template-columns: auto ;
+  grid-gap: 1vw;
+  background-color: white;
+margin-left: -3vw;
+margin-right: 5vw;
+margin-top:25vh
+}
+	
+#grid{
+    display: none;
+}	
+	
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+left: 0;
+  width: 100%;
+height: 22vh;
+	z-index: 0;
+	
+}
+
+.navbar a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+	position: absolute;
+		z-index: 0;
+	margin-top: 4.5vh}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;}
+	
+hr{
+border-top: 1.5px solid #ff8736;
+margin-left: 6.9vw;
+;width:86.3vw;
+margin-top: 10.3%}
+	
+	
+h1{margin-left: 12.5vw;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 9vw;
+		color: black;
+	margin-top: 3.6vh}			
+	
+	
+	.Portfolio{font-size: 4vw; 
+	left: 13vw;
+		
+  text-decoration: none;
+	}
+	
+	.About{font-size: 4vw;
+	
+	left: 42vw}	
+	
+	.Contact{font-size: 4vw;
+	
+	left: 70vw}	
+		
+}
+
+
+
+@media screen and (max-width: 550px) {
+	
+	
+  h2 {font-size: 17vw;
+	margin-top: 38vh;
+	font-weight: 300}
+	
+#hi{color: white;
+margin-left: 37vw;
+font-size: 7vw;
+text-decoration: none;
+position:absolute; 
+	bottom:0px;
+ display:inline-block;
+	margin-top: 21vh}
+	
+	#hi{
+animation: 
+    typing 1.6s steps(1, end),
+	blink-caret .75s step-end infinite;}
+	
+.vertical_dotted_line{
+margin-left: 12vw;
+margin-top: 1vh;
+	height: 18vh;
+	}	
+	
+	
+h2{
+  animation: 
+    typing 2s steps(40, end),
+    blink-caret .75s step-end infinite;
+	
+}	
+	
+		
+	
+	#grid-container > div {
+  background-color: black;
+  text-align: center;
+  padding: 28vw;
+  font-size: 1vw;
+}		
+	
+#grid-container {
+  display: grid;
+  grid-template-columns: auto ;
+  grid-gap: 1vw;
+  background-color: white;
+margin-left: -3vw;
+margin-right: 5vw;
+margin-top:22vh
+}
+	
+#grid{
+    display: none;
+}	
+	
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+left: 0;
+  width: 100%;
+height: 21vh;
+	z-index: 0;
+	
+}
+
+.navbar a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+	position: absolute;
+		z-index: 0;
+	margin-top: 4.5vh}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;}
+	
+hr{
+border-top: 1.5px solid #ff8736;
+margin-left: 6.9vw;
+;width:86.3vw;
+margin-top: 10.3%}
+	
+	
+h1{margin-left: 12.5vw;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 9vw;
+		color: black;
+	margin-top: 3.6vh}			
+	
+	
+	.Portfolio{font-size: 4vw; 
+	left: 13vw;
+		
+  text-decoration: none;
+	}
+	
+	.About{font-size: 4vw;
+	
+	left: 42vw}	
+	
+	.Contact{font-size: 4vw;
+	
+	left: 70vw}	
+		
+}
