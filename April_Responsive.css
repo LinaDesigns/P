@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+
+@media screen and (max-width: 480px) {
+	
+	.container2{height: 400px;
+	margin-bottom: 0px;}
+	
+	.container{height: 0px;}
+	.col-md-12 {height: 0px}
+	.work-detail{height: 0px}
+	
+	
+}
