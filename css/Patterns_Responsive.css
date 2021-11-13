@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 480px) {
+
+	
+.container2{height:380px;
+	overflow: hidden;
+	margin-bottom: 0px
+	}	
+	
+	.work-detail{
+		margin-top: 0px
+	}
+	
+}

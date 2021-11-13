@@ -1,0 +1,335 @@
+
+@media (max-width: 1199px){
+	
+hr{margin-top: 192px;
+	margin-bottom: 1px}
+	
+.section2{
+margin-left: -16px;
+margin-top: 147px;
+margin-bottom: 35px
+}
+	
+	p{line-height: 28px;
+	font-size: 13.3px}
+	
+	.p1{font-size: 11px}
+	
+	.container2{width: 25%; }
+	
+}
+
+
+@media screen and (max-width: 1024px) {
+	
+#header .header-content {
+	width: 100%;
+	margin-left: 16px;
+	margin-top: 10px;
+	
+}
+	
+#header .header-content {
+	padding: 30px 0%;
+}
+	
+#header.fixed .header-content {
+    border-bottom: 0 none;
+    padding: 25px 0;
+}
+	
+.nav-toggle {
+	display: block;
+}
+.navigation {
+	position: fixed;
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+}
+.navigation .primary-nav {
+	position: relative;
+	top: 45%;
+	-moz-transform: translateY(-45%);
+	-ms-transform: translateY(-45%);
+	-webkit-transform: translateY(-45%);
+	transform: translateY(-45%);
+}
+.navigation li {
+	display: block;
+	font-size: 25px;
+		text-align: center;
+	margin-bottom: 20px;
+}
+.navigation a {
+	display: block;
+	font-size: 25px;
+	margin: 0;
+	margin-left: 0px;
+	text-align: center;
+}
+.flex-control-nav {
+	bottom: 20px;
+}
+	
+	
+.hero{
+margin-top:95px;	
+margin-bottom: 0px
+	}
+
+	
+	
+.hero p{
+margin-top: -2px;
+	}
+	
+	
+.nav-toggle{margin-top: -10px}	
+	
+
+
+	hr{margin-top: 0px}
+	
+	.container{float: none;
+	width: 100%;
+	overflow:visible;
+	margin-top: 0px;
+	
+	}	
+	
+	.container2{width:95.5%;
+	overflow:none; 
+	height: 100%;
+	margin-bottom: 28px;
+		margin-top: 113px
+	}
+	
+	
+	.section2{
+margin-left: -16px;
+margin-top: 140px;
+margin-bottom: 30px
+}
+	
+p{line-height: 24px;
+	font-size: 12.5px}
+	
+.p1{font-size: 11.5px}	
+		
+html{overflow: scroll}
+	
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+	
+	
+#header .header-content {
+	padding: 30px 0%;
+	
+}
+.navigation, .navigation a {
+	margin-left: 0px;
+}
+.flexslider {
+	padding-bottom: 80px;
+}
+.flex-control-nav {
+	width: 100%;
+}
+.footer .footer-col {
+	margin-bottom: 50px;
+}
+.hero {
+	margin-top: 105px;
+	margin-bottom: -205px
+}
+
+
+.service {
+    margin: 50px 0 50px 0;
+}
+.btn
+{
+margin-top:40%;	
+}
+	
+.nav-toggle{margin-top: -10px}
+	
+	
+	.container{float: none;
+	width: 100%;
+	overflow:none
+	}	
+	.container2{width:94%;
+	overflow:none;
+	margin-bottom: 23px;
+	}
+	
+.section2{
+margin-left: -16px;
+margin-top: 165px;
+margin-bottom: 30px
+}	
+	
+	
+	
+	
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+#header .header-content {
+	padding: 30px 0%;
+}
+		
+	
+.navigation, .navigation a {
+	margin-left: 0px;
+}
+.hero {
+	margin-top: 95px;
+	margin-bottom: -200px
+}
+
+	
+.hero-content h1 {
+	margin-top: 25%;
+	font-size: 24px;
+}
+.hero-content h4 {
+	margin-top: 25%;
+
+}
+.service {
+    margin: 50px 0 50px 0;
+}
+.btn
+{
+margin-top:10%;	
+}
+	
+	
+.nav-toggle {
+	display: block;
+}
+	
+	#portfolio{margin-top: -10px}
+	
+	hr{margin-top: 20px}
+	
+	.container2{width:93%}
+	
+	
+.section2{
+margin-left: -16px;
+margin-top: 165px;
+margin-bottom: 30px
+}	
+	
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+#header .header-content {
+	padding: 30px 0%;
+margin-left: 0px;
+	margin-top: 0px;
+	height: 70px
+}
+	
+	.logo{margin-left: 14.5px}	
+	
+	.clearfix{	
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	margin-left: -30px}	
+
+	hr{margin-top: 20px;
+	margin-bottom: 0px}	
+	
+.navigation, .navigation a {
+	margin-left: 0px;
+}
+.hero {
+	margin-top: -8px;
+	margin-bottom: -90px
+}
+	
+	.nav-toggle{margin-top: -20px}	
+	
+	.section{margin-top: 90px}
+	
+.section2{
+margin-left: -16px;
+margin-top: 65px;
+margin-bottom: 30px
+}
+	
+.container2{width:90%;
+	overflow:none; 
+	margin-top: 95px;
+	margin-bottom: 10px
+	}	
+	
+.notes{
+font-size: 10px;
+line-height: 16px
+}	
+	
+}
+
+
+@media screen and (max-width: 320px) {
+#header .header-content {
+	padding: 30px 0%;
+	background-color: white
+}
+	
+.navigation, .navigation a {
+	margin-left: 0px;
+	background-color: white
+}
+	
+.hero-content h1 {
+	margin-top: 25%;
+	font-size: 24px;
+}
+.hero-content h4 {
+	margin-top: 0%;
+
+}
+.hero-content p {
+    margin-top: 0px;
+}
+.service {
+    margin: 50px 0 50px 0;
+}
+.extra-padding {
+    margin: 50px 0px;
+}
+	
+.nav-toggle{margin-top: -10px}
+	
+.hero{margin-top: 90px}	
+	
+	
+}
+
+
