@@ -2,21 +2,21 @@
 @media screen and (max-width: 991px) {
 	.work-detail{margin-top: 570px}
 	
-	.container2{margin-bottom: -20px}
+	.container2{margin-bottom: 0px}
 }
 
 
 @media screen and (max-width: 730px) {
 	
 .work-detail{margin-top: 620px}
-.container2{margin-bottom: -20px}	
+.container2{margin-bottom: 0px}	
 	
 }
 
 @media screen and (max-width: 620px) {
 	
 .work-detail{margin-top: 650px}
-.container2{margin-bottom: -20px}	
+.container2{margin-bottom: 0px}	
 	
 }
 
@@ -24,7 +24,7 @@
 @media screen and (max-width: 500px) {
 	
 .work-detail{margin-top: 670px}
-.container2{margin-bottom: -20px}	
+.container2{margin-bottom: 0px}	
 	
 }
 
