@@ -5,10 +5,12 @@ margin-top: 103px;
 width: 43%; 
 margin-left: 19px; 
 overflow:scroll; 
-height:745px;
+height:auto;
 margin-bottom: 15px	
 }
 
+html{
+	overflow:scroll}
 
 
 @media (max-width: 1450px){
@@ -19,13 +21,17 @@ margin-top: 222px;}
 .container2{float: left;
 margin-top: 103px; 
 width: 44%; 
+overflow: scroll	
 
 }
 	
 @media (max-width: 1390px){
 .contact{width: 46%;
 float: right;
-margin-top: 250px;}
+margin-top: 250px;
+	}
+	
+	.container2{overflow: scroll}
 
 }	
 
@@ -65,9 +71,11 @@ margin-bottom: 35px
 	margin-top: 5px;}
 
 	
-	.container2{width: 46%; }
+	.container2{width: 46%; 
+	overflow: scroll;}
 	
-.contact{width:42%;}
+.contact{width:42%;
+	}
 	
 	
 	
@@ -165,14 +173,13 @@ margin-top: -2px;
 
 	
 	.container2{width:95.5%;
-	overflow:none; 
-	height: 100%;
-	margin-bottom:-180px;
+	overflow:scroll; 
+	margin-bottom:-280px;
 		margin-top: 113px
 	}
 	
 	.contact{width: 100%;
-	overflow-x: hidden}	
+	margin-top: 340px}	
 	
 	.section2{
 margin-left: -16px;
@@ -257,8 +264,8 @@ margin-top:40%;
 	overflow:none
 	}	
 	.container2{width:94%;
-	overflow:none;
-	margin-bottom: -180px;
+	overflow:scroll;
+	margin-bottom: -280px;
 	}
 	
 .section2{
@@ -295,6 +302,8 @@ margin-bottom: 30px
 	
 hr{width: 94%}
 	
+.contact{width: 100%;
+	margin-top: 330px}	
 	
 }
 
@@ -341,7 +350,9 @@ margin-top:10%;
 	
 	hr{margin-top: 20px}
 	
-	.container2{width:93%}
+	.container2{width:93%;
+	
+	margin-bottom: -260px;}
 	
 	
 .section2{
@@ -378,6 +389,10 @@ margin-bottom: 30px
 	margin-bottom: 60px}	
 	
 hr{width: 94%}	
+	
+.contact{width: 100%;
+	margin-top: 310px}	
+			
 	
 }
 
@@ -426,7 +441,6 @@ margin-bottom: 30px
 .container2{width:90%;
 	margin-top: 95px;
 	margin-bottom: -200px;
-	height:720px
 	}	
 	
 
@@ -443,6 +457,9 @@ margin-bottom: 30px
 .p5 {
 	font-size: 13px}	
 		
+	.contact{width: 100%;
+	margin-top: 290px}	
+			
 	
 }
 
@@ -479,6 +496,10 @@ margin-bottom: 30px
 .nav-toggle{margin-top: -10px}
 	
 .hero{margin-top: 90px}	
+	
+	.contact{width: 100%;
+	margin-top: 270px}	
+			
 	
 	
 	}}

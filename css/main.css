@@ -359,7 +359,7 @@ margin-bottom: 38px
 .hero-content {
 }
 .hero h1 {
-	font-size: 22px;
+	font-size: 24px;
 	color: #2d3033;
 	font-weight: 400;
 	font-family: Roboto;
@@ -442,7 +442,8 @@ width:100%;
 	align-items: center;
 	align-content: center;
 	margin: 0% 0% 3% 0%;
-	margin-left: -2px
+	margin-left: -2px;
+	margin-bottom: 40px
 }
 
 .work-detail a
@@ -458,27 +459,30 @@ align-content: center;
 #foo{margin-top: 20px}
 .w3-display-container{margin-top: -50px}
 
+.sqs-block-content{margin-bottom:50px}
+
 .container{
-margin-top: 112px;
+margin-top: 91px;
 	float: right;
 	height:90vh;
 	width:72%;
 	overflow:scroll
 }
 
-
 .container2{float: left;
 margin-top: 103px; 
 width: 26%; 
 margin-left: 19px; 
 overflow:scroll; 
-height:785px;
-margin-bottom: 15px	
+margin-bottom: 15px	;
+	height: 89vh;
+	
 }
 
 .contact{width: 48%;
 float: right;
-margin-top: 222px;}
+margin-top: 222px;
+	overflow: hidden}
 
 form{margin-top: -5px}
 
@@ -517,4 +521,4 @@ margin-left: 50px}
 
 
 html{
-	overflow: hidden}
+	overflow:hidden}

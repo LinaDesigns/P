@@ -1,4 +1,5 @@
 
+
 @media (max-width: 1199px){
 	
 hr{margin-top: 192px;
@@ -15,7 +16,9 @@ margin-bottom: 35px
 	
 	.p1{font-size: 11px}
 	
-	.container2{width: 25%; }
+	.container2{width: 25%; 
+	overflow: scroll}
+	
 	
 }
 
@@ -106,12 +109,13 @@ margin-top: -2px;
 	}	
 	
 	.container2{width:95.5%;
-	overflow:none; 
-	height: 100%;
-	margin-bottom: 28px;
-		margin-top: 113px
+	overflow:visible; 
+		margin-top: 110px;
+	height: auto;
 	}
 	
+	.sqs-block-content{margin-bottom:0px}
+
 	
 	.section2{
 margin-left: -16px;
@@ -285,7 +289,6 @@ margin-bottom: 30px
 .container2{width:90%;
 	overflow:none; 
 	margin-top: 95px;
-	margin-bottom: 10px
 	}	
 	
 .notes{
